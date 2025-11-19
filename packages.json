@@ -9,7 +9,7 @@
       "categories": ["forms", "development"],
       "tags": ["form", "formlister", "sender", "module"],
       "author": "roilafx",
-      "documentation_url": "https://github.com/Kolya1222/formbuild",
+      "documentation_url": "https://github.com/Kolya1222/formbuild"
     },
     {
       "name": "AI Bot", 
@@ -20,7 +20,7 @@
       "categories": ["ai", "automation"],
       "tags": ["ai", "bot", "automation", "module"],
       "author": "roilafx",
-      "documentation_url": "https://github.com/Kolya1222/ai_bot",
+      "documentation_url": "https://github.com/Kolya1222/ai_bot"
     },
     {
       "name": "Constructor Evo",
@@ -31,7 +31,7 @@
       "categories": ["page-builder", "development"],
       "tags": ["constructor", "drag-and-drop", "page-builder", "module"],
       "author": "roilafx",
-      "documentation_url": "https://github.com/Kolya1222/constructor",
+      "documentation_url": "https://github.com/Kolya1222/constructor"
     },
     {
       "name": "SEO EvoBust",
@@ -42,7 +42,7 @@
       "categories": ["seo", "analytics"],
       "tags": ["seo", "analysis", "optimization", "module"],
       "author": "roilafx",
-      "documentation_url": "https://github.com/Kolya1222/seoevobust",
+      "documentation_url": "https://github.com/Kolya1222/seoevobust"
     },
     {
       "name": "Console Evo",
@@ -53,7 +53,7 @@
       "categories": ["development", "tools"],
       "tags": ["console", "commands", "development", "module"],
       "author": "roilafx",
-      "documentation_url": "https://github.com/Kolya1222/Consolevo",
+      "documentation_url": "https://github.com/Kolya1222/Consolevo"
     }
   ]
 }
