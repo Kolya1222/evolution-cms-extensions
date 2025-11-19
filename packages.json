@@ -1,0 +1,34 @@
+{
+  "packages": [
+    {
+      "name": "roilafx/packagenavigator",
+      "display_name": "Package Navigator",
+      "description": "Менеджер пакетов для Evolution CMS",
+      "type": "module",
+      "repository": "https://github.com/roilafx/packagenavigator",
+      "composer_name": "roilafx/packagenavigator",
+      "version": "1.0.0",
+      "categories": ["development", "tools"]
+    },
+    {
+      "name": "evolution-cms/shop-module",
+      "display_name": "Shop Module", 
+      "description": "Модуль интернет-магазина",
+      "type": "module",
+      "repository": "https://github.com/evolution-cms/shop-module",
+      "composer_name": "evolution-cms/shop-module",
+      "version": "2.1.0",
+      "categories": ["ecommerce"]
+    },
+    {
+      "name": "webformat/watermark",
+      "display_name": "Watermark Plugin",
+      "description": "Плагин для наложения водяных знаков",
+      "type": "plugin", 
+      "repository": "https://github.com/webformat/watermark",
+      "composer_name": "webformat/watermark",
+      "version": "1.5.0",
+      "categories": ["media", "images"]
+    }
+  ]
+}
