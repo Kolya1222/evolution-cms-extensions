@@ -14,18 +14,18 @@
     {
       "name": "AI Bot", 
       "description": "Модуль искусственного интеллекта для Evolution CMS",
-      "type": "module",
+      "type": "module / plugin",
       "repository": "https://github.com/Kolya1222/ai_bot",
       "composer_name": "kolya2320/botai",
       "categories": ["ai", "automation"],
-      "tags": ["ai", "bot", "automation", "module"],
+      "tags": ["ai", "bot", "automation", "module" ,"MCP"],
       "author": "roilafx",
       "documentation_url": "https://github.com/Kolya1222/ai_bot"
     },
     {
       "name": "Constructor Evo",
       "description": "Модуль для создания наполнения страницы при помощи Drag and Drop",
-      "type": "module", 
+      "type": "plugin / snippet", 
       "repository": "https://github.com/Kolya1222/constructor",
       "composer_name": "roilafx/constructorevo",
       "categories": ["page-builder", "development"],
@@ -36,7 +36,7 @@
     {
       "name": "SEO EvoBust",
       "description": "Выполнение постраничного SEO анализа сайта",
-      "type": "module",
+      "type": "plugin",
       "repository": "https://github.com/Kolya1222/seoevobust", 
       "composer_name": "roilafx/seoevobust",
       "categories": ["seo", "analytics"],
@@ -47,7 +47,7 @@
     {
       "name": "Console Evo",
       "description": "Консоль для выполнения команд в Evolution CMS",
-      "type": "module",
+      "type": "plugin",
       "repository": "https://github.com/Kolya1222/Consolevo",
       "composer_name": "roilafx/consolevo", 
       "categories": ["development", "tools"],
