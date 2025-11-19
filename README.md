@@ -44,14 +44,14 @@ GitHub репозиторий:
 ## 5. Пример успешного пакета
 
 ```json
-{
-  "name": "Awesome SEO Module",
-  "description": "Продвинутый SEO анализ страниц",
-  "type": "module",
-  "repository": "https://github.com/devname/evo-seo-module",
-  "composer_name": "devname/evo-seo-module", 
-  "categories": ["seo", "analytics"],
-  "tags": ["seo", "analysis", "optimization", "module"],
-  "author": "Dev Name",
-  "documentation_url": "https://github.com/devname/evo-seo-module/wiki"
-}
+    {
+      "name": "AI Bot", 
+      "description": "Модуль искусственного интеллекта для Evolution CMS",
+      "type": "module / plugin",
+      "repository": "https://github.com/Kolya1222/ai_bot",
+      "composer_name": "kolya2320/botai",
+      "categories": ["ai", "automation"],
+      "tags": ["ai", "bot", "automation", "module" ,"MCP"],
+      "author": "roilafx",
+      "documentation_url": "https://github.com/Kolya1222/ai_bot"
+    }
