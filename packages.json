@@ -8,7 +8,8 @@
       "composer_name": "kolya1222/formbuildevo",
       "categories": ["forms", "development"],
       "tags": ["form", "formlister", "sender", "module"],
-      "author": "Kolya1222",
+      "author": "roilafx",
+      "documentation_url": "https://github.com/Kolya1222/formbuild",
     },
     {
       "name": "AI Bot", 
@@ -18,7 +19,8 @@
       "composer_name": "kolya2320/botai",
       "categories": ["ai", "automation"],
       "tags": ["ai", "bot", "automation", "module"],
-      "author": "Kolya1222",
+      "author": "roilafx",
+      "documentation_url": "https://github.com/Kolya1222/ai_bot",
     },
     {
       "name": "Constructor Evo",
