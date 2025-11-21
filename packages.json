@@ -6,8 +6,8 @@
       "type": "module",
       "repository": "https://github.com/Kolya1222/formbuild",
       "composer_name": "kolya1222/formbuildevo",
-      "categories": ["forms", "development"],
-      "tags": ["form", "formlister", "sender", "module"],
+      "categories": ["Автоматизация разработки", "Конструктор"],
+      "tags": ["Работа с формами", "drag-and-drop"],
       "author": "roilafx",
       "documentation_url": "https://github.com/Kolya1222/formbuild"
     },
@@ -17,8 +17,8 @@
       "type": "module / plugin",
       "repository": "https://github.com/Kolya1222/ai_bot",
       "composer_name": "kolya2320/botai",
-      "categories": ["ai", "automation"],
-      "tags": ["ai", "bot", "automation", "module" ,"MCP"],
+      "categories": ["Искусственный интеллект"],
+      "tags": ["ИИ", "Чат-Бот", "MCP"],
       "author": "roilafx",
       "documentation_url": "https://github.com/Kolya1222/ai_bot"
     },
@@ -28,8 +28,8 @@
       "type": "plugin / snippet", 
       "repository": "https://github.com/Kolya1222/constructor",
       "composer_name": "roilafx/constructorevo",
-      "categories": ["page-builder", "development"],
-      "tags": ["constructor", "drag-and-drop", "page-builder", "module"],
+      "categories": ["Автоматизация разработки", "Конструктор"],
+      "tags": ["drag-and-drop", "Конструктор страниц"],
       "author": "roilafx",
       "documentation_url": "https://github.com/Kolya1222/constructor"
     },
@@ -39,8 +39,8 @@
       "type": "plugin",
       "repository": "https://github.com/Kolya1222/seoevobust", 
       "composer_name": "roilafx/seoevobust",
-      "categories": ["seo", "analytics"],
-      "tags": ["seo", "analysis", "optimization", "module"],
+      "categories": ["SEO", "Аналитика"],
+      "tags": ["seo", "analysis"],
       "author": "roilafx",
       "documentation_url": "https://github.com/Kolya1222/seoevobust"
     },
@@ -50,8 +50,8 @@
       "type": "plugin",
       "repository": "https://github.com/Kolya1222/Consolevo",
       "composer_name": "roilafx/consolevo", 
-      "categories": ["development", "tools"],
-      "tags": ["console", "commands", "development", "module"],
+      "categories": ["Разработка"],
+      "tags": ["Консоль", "Выполнение команд", "Тестирование"],
       "author": "roilafx",
       "documentation_url": "https://github.com/Kolya1222/Consolevo"
     }
