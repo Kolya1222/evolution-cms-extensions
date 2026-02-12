@@ -1,0 +1,17 @@
+{
+    "title": "Красный контентный блок",
+    "description": "Блок с красным фоном для привлечения внимания",
+    "type": "block",
+    "tags": ["красный", "акцент", "внимание"],
+    "preview": "https://raw.githubusercontent.com/Kolya1222/evolution-cms-extensions/main/constructor-blocks/previews/red-block.png",
+    "elements": [
+        {
+            "type": "content",
+            "values": {
+                "content": "<p>Нажмите кнопку редактирования для добавления контента</p>\n<p>Привет</p>",
+                "innerStyles": "background-color: rgb(255, 0, 0); color: white; padding: 30px; border-radius: 8px;",
+                "innerClasses": "content-holder red-block"
+            }
+        }
+    ]
+}

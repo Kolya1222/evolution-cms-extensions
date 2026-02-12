@@ -1,0 +1,68 @@
+{
+    "title": "Hero секция",
+    "description": "Красивый блок с заголовком, текстом и кнопкой",
+    "type": "section",
+    "tags": ["hero", "шапка", "заголовок"],
+    "preview": "https://raw.githubusercontent.com/Kolya1222/evolution-cms-extensions/main/constructor-blocks/previews/hero-section.png",
+    "elements": [
+        {
+            "type": "row",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 30px; padding: 60px 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);",
+                "dropZoneClasses": "drop-zone"
+            }
+        },
+        {
+            "type": "column",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 20px; flex: 1;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 0
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<h1 style='color: white; font-size: 48px; margin: 0;'>Создаем будущее</h1>",
+                "innerStyles": "color: white;",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<p style='color: rgba(255,255,255,0.9); font-size: 18px;'>Мы помогаем бизнесу расти и развиваться в цифровом мире</p>",
+                "innerStyles": "color: rgba(255,255,255,0.9);",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "button",
+            "values": {
+                "content": "Начать проект",
+                "innerStyles": "background: white; color: #667eea; border: none; padding: 12px 30px; border-radius: 25px; font-size: 16px; font-weight: bold; cursor: pointer;",
+                "innerClasses": "btn btn-primary"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "column",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 20px; flex: 1;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 0
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<img src='https://placehold.co/600x400' alt='Hero image' style='max-width: 100%; border-radius: 10px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);'>",
+                "innerStyles": "text-align: center;",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 5
+        }
+    ]
+}

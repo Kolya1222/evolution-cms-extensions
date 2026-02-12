@@ -1,0 +1,58 @@
+{
+    "title": "Страница 'О компании'",
+    "description": "Готовая страница с информацией о компании",
+    "type": "page",
+    "tags": ["страница", "о компании", "бизнес"],
+    "preview": "https://raw.githubusercontent.com/Kolya1222/evolution-cms-extensions/main/constructor-blocks/previews/about-page.png",
+    "elements": [
+        {
+            "type": "content",
+            "values": {
+                "content": "<h1 style='text-align: center;'>О нашей компании</h1>\n<p style='text-align: center; font-size: 18px;'>Мы создаем качественные сайты с 2010 года</p>",
+                "innerStyles": "background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 60px 20px; border-radius: 10px;",
+                "innerClasses": "content-holder hero-section"
+            }
+        },
+        {
+            "type": "row",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 30px; padding: 40px 20px;",
+                "dropZoneClasses": "drop-zone"
+            }
+        },
+        {
+            "type": "column",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 20px;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<h2>Наша миссия</h2>\n<p>Мы стремимся сделать интернет лучше, создавая удобные и красивые сайты для наших клиентов.</p>",
+                "innerStyles": "padding: 20px; border-left: 4px solid #667eea;",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 2
+        },
+        {
+            "type": "column",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 20px;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<h2>Наши ценности</h2>\n<ul>\n<li>Качество</li>\n<li>Надежность</li>\n<li>Инновации</li>\n<li>Клиентоориентированность</li>\n</ul>",
+                "innerStyles": "padding: 20px; border-left: 4px solid #764ba2;",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 4
+        }
+    ]
+}

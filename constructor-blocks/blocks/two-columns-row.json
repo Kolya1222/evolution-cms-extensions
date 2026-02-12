@@ -1,0 +1,48 @@
+{
+    "title": "Две колонки",
+    "description": "Готовая строка с двумя колонками",
+    "type": "block",
+    "tags": ["колонки", "сетка", "2 колонки"],
+    "preview": "https://raw.githubusercontent.com/Kolya1222/evolution-cms-extensions/main/constructor-blocks/previews/two-columns.png",
+    "elements": [
+        {
+            "type": "row",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 30px; padding: 20px;",
+                "dropZoneClasses": "drop-zone"
+            }
+        },
+        {
+            "type": "column",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 16px; padding: 20px; background: #f8f9fa; border-radius: 8px;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 0
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<h3>Левая колонка</h3>\n<p>Содержимое левой колонки</p>",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "column",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 16px; padding: 20px; background: #f8f9fa; border-radius: 8px;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 0
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<h3>Правая колонка</h3>\n<p>Содержимое правой колонки</p>",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 3
+        }
+    ]
+}
