@@ -1,0 +1,52 @@
+[
+    {
+        "id": "",
+        "type": "column",
+        "index": "0",
+        "config": "column",
+        "values": {
+            "styles": "",
+            "classes": "constructor-element",
+            "attributes": [],
+            "dropZoneStyles": "display: flex; flex-direction: column; gap: 16px; padding: 12px;",
+            "dropZoneClasses": "drop-zone"
+        },
+        "visible": "1",
+        "container": "workspace",
+        "parentIndex": null
+    },
+    {
+        "id": "",
+        "type": "content",
+        "index": "1",
+        "config": "content",
+        "values": {
+            "styles": "",
+            "classes": "constructor-element",
+            "content": "<p>Нажмите кнопку редактирования для добавления контента</p>",
+            "attributes": [],
+            "innerStyles": "",
+            "innerClasses": "content-holder"
+        },
+        "visible": "1",
+        "container": "workspace",
+        "parentIndex": 0
+    },
+    {
+        "id": "",
+        "type": "content",
+        "index": "2",
+        "config": "content",
+        "values": {
+            "styles": "",
+            "classes": "constructor-element selected",
+            "content": "<p>Нажмите кнопку редактирования для добавления контента</p>",
+            "attributes": [],
+            "innerStyles": "",
+            "innerClasses": "content-holder"
+        },
+        "visible": "1",
+        "container": "workspace",
+        "parentIndex": 0
+    }
+]
