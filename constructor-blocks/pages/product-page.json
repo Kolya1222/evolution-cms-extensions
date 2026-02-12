@@ -1,0 +1,134 @@
+{
+    "title": "Страница товара",
+    "description": "product-page",
+    "tags": ["товар", "product", "каталог"],
+    "elements": [
+        {
+            "id": "",
+            "type": "row",
+            "index": "0",
+            "config": "row",
+            "values": {
+                "styles": "padding: 40px 20px;",
+                "classes": "constructor-element product-section",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 40px; max-width: 1200px; margin: 0 auto;",
+                "dropZoneClasses": "drop-zone container"
+            },
+            "visible": "1",
+            "parentIndex": null
+        },
+        {
+            "id": "",
+            "type": "column",
+            "index": "1",
+            "config": "column",
+            "values": {
+                "styles": "flex: 1;",
+                "classes": "constructor-element",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "visible": "1",
+            "parentIndex": "0"
+        },
+        {
+            "id": "",
+            "type": "tv",
+            "index": "2",
+            "config": "tv",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "tvId": "2",
+                "tvName": "product_image",
+                "tvType": "image",
+                "content": "assets/images/product.jpg",
+                "alt": "Товар",
+                "targetStyles": "width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);",
+                "targetClasses": "product-image img-fluid"
+            },
+            "visible": "1",
+            "parentIndex": "1"
+        },
+        {
+            "id": "",
+            "type": "column",
+            "index": "3",
+            "config": "column",
+            "values": {
+                "styles": "flex: 1;",
+                "classes": "constructor-element",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "visible": "1",
+            "parentIndex": "0"
+        },
+        {
+            "id": "",
+            "type": "content",
+            "index": "4",
+            "config": "content",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<h1 style='font-size: 32px; color: #333;'>Название товара</h1>",
+                "attributes": {},
+                "innerStyles": "",
+                "innerClasses": "content-holder"
+            },
+            "visible": "1",
+            "parentIndex": "3"
+        },
+        {
+            "id": "",
+            "type": "content",
+            "index": "5",
+            "config": "content",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<p style='font-size: 24px; color: #667eea; font-weight: bold;'>9 990 ₽</p>",
+                "attributes": {},
+                "innerStyles": "",
+                "innerClasses": "content-holder product-price"
+            },
+            "visible": "1",
+            "parentIndex": "3"
+        },
+        {
+            "id": "",
+            "type": "content",
+            "index": "6",
+            "config": "content",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<p style='color: #666; line-height: 1.6;'>Описание товара. Здесь можно рассказать о характеристиках, преимуществах и особенностях продукта.</p>",
+                "attributes": {},
+                "innerStyles": "",
+                "innerClasses": "content-holder product-description"
+            },
+            "visible": "1",
+            "parentIndex": "3"
+        },
+        {
+            "id": "",
+            "type": "button",
+            "index": "7",
+            "config": "button",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "Добавить в корзину",
+                "innerStyles": "background: #667eea; color: white; border: none; padding: 12px 30px; border-radius: 5px; font-size: 16px; cursor: pointer; transition: background 0.3s;",
+                "innerClasses": "btn btn-primary btn-lg"
+            },
+            "visible": "1",
+            "parentIndex": "3"
+        }
+    ]
+}

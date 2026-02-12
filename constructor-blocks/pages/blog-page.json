@@ -1,0 +1,115 @@
+{
+    "title": "Блог",
+    "description": "blog-page",
+    "tags": ["блог", "blog", "статьи"],
+    "elements": [
+        {
+            "id": "",
+            "type": "column",
+            "index": "0",
+            "config": "column",
+            "values": {
+                "styles": "padding: 40px 20px; background: #fff;",
+                "classes": "constructor-element blog-section",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 30px; max-width: 1200px; margin: 0 auto;",
+                "dropZoneClasses": "drop-zone container"
+            },
+            "visible": "1",
+            "parentIndex": null
+        },
+        {
+            "id": "",
+            "type": "content",
+            "index": "1",
+            "config": "content",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<h2 style='font-size: 36px; color: #333; text-align: center;'>Последние статьи</h2>",
+                "attributes": {},
+                "innerStyles": "text-align: center;",
+                "innerClasses": "content-holder blog-title"
+            },
+            "visible": "1",
+            "parentIndex": "0"
+        },
+        {
+            "id": "",
+            "type": "row",
+            "index": "2",
+            "config": "row",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 30px; flex-wrap: wrap;",
+                "dropZoneClasses": "drop-zone blog-grid"
+            },
+            "visible": "1",
+            "parentIndex": "0"
+        },
+        {
+            "id": "",
+            "type": "column",
+            "index": "3",
+            "config": "column",
+            "values": {
+                "styles": "flex: 1 1 300px; background: #f8f9fa; border-radius: 8px; overflow: hidden;",
+                "classes": "constructor-element blog-card",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 15px;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "visible": "1",
+            "parentIndex": "2"
+        },
+        {
+            "id": "",
+            "type": "content",
+            "index": "4",
+            "config": "content",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<h3 style='padding: 15px; margin: 0;'>Заголовок статьи 1</h3><p style='padding: 0 15px 15px; color: #666;'>Краткое описание первой статьи блога...</p><a href='#' style='display: block; padding: 15px; background: #667eea; color: white; text-decoration: none; text-align: center;'>Читать далее</a>",
+                "attributes": {},
+                "innerStyles": "",
+                "innerClasses": "content-holder"
+            },
+            "visible": "1",
+            "parentIndex": "3"
+        },
+        {
+            "id": "",
+            "type": "column",
+            "index": "5",
+            "config": "column",
+            "values": {
+                "styles": "flex: 1 1 300px; background: #f8f9fa; border-radius: 8px; overflow: hidden;",
+                "classes": "constructor-element blog-card",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 15px;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "visible": "1",
+            "parentIndex": "2"
+        },
+        {
+            "id": "",
+            "type": "content",
+            "index": "6",
+            "config": "content",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<h3 style='padding: 15px; margin: 0;'>Заголовок статьи 2</h3><p style='padding: 0 15px 15px; color: #666;'>Краткое описание второй статьи блога...</p><a href='#' style='display: block; padding: 15px; background: #667eea; color: white; text-decoration: none; text-align: center;'>Читать далее</a>",
+                "attributes": {},
+                "innerStyles": "",
+                "innerClasses": "content-holder"
+            },
+            "visible": "1",
+            "parentIndex": "5"
+        }
+    ]
+}

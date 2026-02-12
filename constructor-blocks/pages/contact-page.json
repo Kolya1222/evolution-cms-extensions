@@ -1,52 +1,103 @@
-[
-    {
-        "id": "",
-        "type": "column",
-        "index": "0",
-        "config": "column",
-        "values": {
-            "styles": "",
-            "classes": "constructor-element",
-            "attributes": [],
-            "dropZoneStyles": "display: flex; flex-direction: column; gap: 16px; padding: 12px;",
-            "dropZoneClasses": "drop-zone"
+{
+    "title": "Контакты",
+    "description": "contact-page",
+    "tags": ["контакты", "contact", "форма"],
+    "elements": [
+        {
+            "id": "",
+            "type": "row",
+            "index": "0",
+            "config": "row",
+            "values": {
+                "styles": "padding: 40px 20px;",
+                "classes": "constructor-element contact-section",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 40px; padding: 12px; max-width: 1200px; margin: 0 auto;",
+                "dropZoneClasses": "drop-zone container"
+            },
+            "visible": "1",
+            "parentIndex": null
         },
-        "visible": "1",
-        "container": "workspace",
-        "parentIndex": null
-    },
-    {
-        "id": "",
-        "type": "content",
-        "index": "1",
-        "config": "content",
-        "values": {
-            "styles": "",
-            "classes": "constructor-element",
-            "content": "<p>Нажмите кнопку редактирования для добавления контента</p>",
-            "attributes": [],
-            "innerStyles": "",
-            "innerClasses": "content-holder"
+        {
+            "id": "",
+            "type": "column",
+            "index": "1",
+            "config": "column",
+            "values": {
+                "styles": "flex: 1;",
+                "classes": "constructor-element",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "visible": "1",
+            "parentIndex": "0"
         },
-        "visible": "1",
-        "container": "workspace",
-        "parentIndex": 0
-    },
-    {
-        "id": "",
-        "type": "content",
-        "index": "2",
-        "config": "content",
-        "values": {
-            "styles": "",
-            "classes": "constructor-element selected",
-            "content": "<p>Нажмите кнопку редактирования для добавления контента</p>",
-            "attributes": [],
-            "innerStyles": "",
-            "innerClasses": "content-holder"
+        {
+            "id": "",
+            "type": "content",
+            "index": "2",
+            "config": "content",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<h2 style='font-size: 32px; color: #333;'>Свяжитесь с нами</h2>",
+                "attributes": {},
+                "innerStyles": "",
+                "innerClasses": "content-holder"
+            },
+            "visible": "1",
+            "parentIndex": "1"
         },
-        "visible": "1",
-        "container": "workspace",
-        "parentIndex": 0
-    }
-]
+        {
+            "id": "",
+            "type": "content",
+            "index": "3",
+            "config": "content",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<p style='font-size: 16px; color: #666;'><i class='fas fa-map-marker-alt'></i> г. Москва, ул. Примерная, д. 1</p><p style='font-size: 16px; color: #666;'><i class='fas fa-phone'></i> +7 (999) 123-45-67</p><p style='font-size: 16px; color: #666;'><i class='fas fa-envelope'></i> info@example.com</p>",
+                "attributes": {},
+                "innerStyles": "",
+                "innerClasses": "content-holder contact-info"
+            },
+            "visible": "1",
+            "parentIndex": "1"
+        },
+        {
+            "id": "",
+            "type": "tv",
+            "index": "4",
+            "config": "tv",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "tvId": "1",
+                "tvName": "contact_image",
+                "tvType": "image",
+                "content": "assets/images/contact.jpg",
+                "alt": "Контактная информация",
+                "targetStyles": "width: 100%; border-radius: 8px;",
+                "targetClasses": "contact-image img-fluid"
+            },
+            "visible": "1",
+            "parentIndex": "0"
+        },
+        {
+            "id": "",
+            "type": "column",
+            "index": "5",
+            "config": "column",
+            "values": {
+                "styles": "flex: 1;",
+                "classes": "constructor-element",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "visible": "1",
+            "parentIndex": "0"
+        }
+    ]
+}

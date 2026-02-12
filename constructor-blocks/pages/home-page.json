@@ -1,0 +1,69 @@
+{
+    "title": "Главная страница",
+    "description": "home-page",
+    "tags": ["главная", "landing", "hero"],
+    "elements": [
+        {
+            "id": "",
+            "type": "column",
+            "index": "0",
+            "config": "column",
+            "values": {
+                "styles": "background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 60px 20px;",
+                "classes": "constructor-element hero-section",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 12px; max-width: 1200px; margin: 0 auto;",
+                "dropZoneClasses": "drop-zone container"
+            },
+            "visible": "1",
+            "parentIndex": null
+        },
+        {
+            "id": "",
+            "type": "content",
+            "index": "1",
+            "config": "content",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<h1 style='font-size: 48px; color: white; text-align: center;'>Добро пожаловать на наш сайт</h1>",
+                "attributes": {},
+                "innerStyles": "text-align: center;",
+                "innerClasses": "content-holder hero-title"
+            },
+            "visible": "1",
+            "parentIndex": "0"
+        },
+        {
+            "id": "",
+            "type": "content",
+            "index": "2",
+            "config": "content",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<p style='font-size: 20px; color: rgba(255,255,255,0.9); text-align: center;'>Создавайте удивительные веб-страницы с нашим конструктором</p>",
+                "attributes": {},
+                "innerStyles": "text-align: center;",
+                "innerClasses": "content-holder hero-subtitle"
+            },
+            "visible": "1",
+            "parentIndex": "0"
+        },
+        {
+            "id": "",
+            "type": "button",
+            "index": "3",
+            "config": "button",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "Начать сейчас",
+                "innerStyles": "background: white; color: #667eea; border: none; padding: 12px 30px; border-radius: 25px; font-size: 18px; cursor: pointer; transition: transform 0.3s;",
+                "innerClasses": "btn btn-primary btn-lg"
+            },
+            "visible": "1",
+            "parentIndex": "0"
+        }
+    ]
+}
