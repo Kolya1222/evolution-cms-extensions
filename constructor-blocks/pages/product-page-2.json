@@ -24,7 +24,7 @@
         {
             "type": "content",
             "values": {
-                "content": "<span class='badge bg-warning text-dark p-3 fs-6'>ХИТ ПРОДАЖ</span>",
+                "content": "<span class='badge bg-warning text-dark p-3 fs-6'>🔥 ХИТ ПРОДАЖ 2024</span>",
                 "innerClasses": "content-holder text-center"
             },
             "parentIndex": 1

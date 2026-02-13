@@ -4,131 +4,253 @@
     "type": "page",
     "tags": ["business", "company", "minimal", "bootstrap"],
     "framework": "bootstrap",
-    "tv": ["company_name", "company_logo", "contact_email", "contact_phone"],
+    "tv": ["company_name", "company_logo", "contact_email", "contact_phone", "company_slogan", "company_description", "company_address"],
     "elements": [
         {
+            "id": "",
             "type": "row",
+            "index": "0",
+            "config": "row",
             "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {},
                 "dropZoneStyles": "display: flex; flex-direction: row; gap: 0; padding: 0;",
                 "dropZoneClasses": "drop-zone"
-            }
+            },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": null
         },
         {
+            "id": "",
             "type": "column",
+            "index": "1",
+            "config": "column",
             "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; padding: 0;",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 40px; flex: 1;",
                 "dropZoneClasses": "drop-zone"
             },
-            "parentIndex": 0
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "0"
         },
         {
+            "id": "",
             "type": "tv",
+            "index": "2",
+            "config": "tv",
             "values": {
                 "tvId": 1,
                 "tvName": "company_logo",
                 "tvType": "image",
                 "content": "{{$documentObject['company_logo']}}",
                 "alt": "Логотип компании",
-                "targetStyles": "max-width: 200px; margin: 20px auto; display: block;",
-                "targetClasses": "img-fluid"
+                "targetStyles": "max-width: 200px; margin: 0 auto 20px; display: block;",
+                "targetClasses": "img-fluid",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
-            "parentIndex": 1
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "1"
         },
         {
-            "type": "content",
+            "id": "",
+            "type": "tv",
+            "index": "3",
+            "config": "tv",
             "values": {
-                "content": "<h1 class='text-center display-4'>{{$documentObject['company_name']}}</h1>",
-                "innerStyles": "margin: 30px 0;",
-                "innerClasses": "content-holder text-center"
+                "tvId": 2,
+                "tvName": "company_name",
+                "tvType": "text",
+                "content": "{{$documentObject['company_name']}}",
+                "targetStyles": "font-size: 42px; font-weight: 700; color: #1e293b; margin: 0 0 10px; text-align: center;",
+                "targetClasses": "display-4 fw-bold text-center",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
-            "parentIndex": 1
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "1"
         },
         {
-            "type": "content",
+            "id": "",
+            "type": "tv",
+            "index": "4",
+            "config": "tv",
             "values": {
-                "content": "<p class='text-center lead'>{{$documentObject['company_slogan']}}</p>",
-                "innerStyles": "margin-bottom: 40px; color: #6c757d;",
-                "innerClasses": "content-holder text-center"
+                "tvId": 5,
+                "tvName": "company_slogan",
+                "tvType": "text",
+                "content": "{{$documentObject['company_slogan']}}",
+                "targetStyles": "font-size: 20px; color: #475569; margin-bottom: 30px; text-align: center;",
+                "targetClasses": "lead text-center text-muted",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
-            "parentIndex": 1
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "1"
         },
         {
+            "id": "",
             "type": "row",
+            "index": "5",
+            "config": "row",
             "values": {
-                "dropZoneStyles": "display: flex; flex-direction: row; gap: 20px; padding: 40px 20px; justify-content: center;",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 40px; padding: 60px 40px; background: #f8fafc; margin-top: 40px;",
                 "dropZoneClasses": "drop-zone"
             },
-            "parentIndex": 0
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "0"
         },
         {
+            "id": "",
             "type": "column",
+            "index": "6",
+            "config": "column",
             "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 10px; padding: 20px; flex: 1;",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 30px; flex: 1; background: white; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);",
                 "dropZoneClasses": "drop-zone"
             },
-            "parentIndex": 5
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "5"
         },
         {
+            "id": "",
             "type": "content",
+            "index": "7",
+            "config": "content",
             "values": {
-                "content": "<h3>О нас</h3>",
-                "innerStyles": "color: #333;",
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<h3 style='font-size: 24px; font-weight: 600; color: #0f172a; margin: 0 0 16px; border-bottom: 3px solid #3b82f6; padding-bottom: 8px;'>О нас</h3>",
+                "attributes": {},
+                "innerStyles": "",
                 "innerClasses": "content-holder"
             },
-            "parentIndex": 6
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "6"
         },
         {
-            "type": "content",
+            "id": "",
+            "type": "tv",
+            "index": "8",
+            "config": "tv",
             "values": {
-                "content": "<p>{{$documentObject['company_description']}}</p>",
-                "innerStyles": "line-height: 1.6;",
-                "innerClasses": "content-holder"
+                "tvId": 6,
+                "tvName": "company_description",
+                "tvType": "textarea",
+                "content": "{{$documentObject['company_description']}}",
+                "targetStyles": "font-size: 16px; line-height: 1.7; color: #334155; margin: 0;",
+                "targetClasses": "",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
-            "parentIndex": 6
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "6"
         },
         {
+            "id": "",
             "type": "column",
+            "index": "9",
+            "config": "column",
             "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 10px; padding: 20px; flex: 1;",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {},
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 30px; flex: 1; background: white; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);",
                 "dropZoneClasses": "drop-zone"
             },
-            "parentIndex": 5
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "5"
         },
         {
+            "id": "",
             "type": "content",
+            "index": "10",
+            "config": "content",
             "values": {
-                "content": "<h3>Контакты</h3>",
-                "innerStyles": "color: #333;",
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<h3 style='font-size: 24px; font-weight: 600; color: #0f172a; margin: 0 0 16px; border-bottom: 3px solid #3b82f6; padding-bottom: 8px;'>Контакты</h3>",
+                "attributes": {},
+                "innerStyles": "",
                 "innerClasses": "content-holder"
             },
-            "parentIndex": 9
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "9"
         },
         {
+            "id": "",
             "type": "content",
+            "index": "11",
+            "config": "content",
             "values": {
-                "content": "<p><i class='fas fa-envelope'></i> {{$documentObject['contact_email']}}</p>",
-                "innerStyles": "margin: 10px 0;",
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<div style='display: flex; align-items: center; gap: 12px; margin-bottom: 16px;'><i class='fas fa-envelope' style='font-size: 20px; color: #3b82f6; width: 24px;'></i> <span style='color: #334155;'>{{$documentObject['contact_email']}}</span></div>",
+                "attributes": {},
+                "innerStyles": "",
                 "innerClasses": "content-holder"
             },
-            "parentIndex": 9
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "9"
         },
         {
+            "id": "",
             "type": "content",
+            "index": "12",
+            "config": "content",
             "values": {
-                "content": "<p><i class='fas fa-phone'></i> {{$documentObject['contact_phone']}}</p>",
-                "innerStyles": "margin: 10px 0;",
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<div style='display: flex; align-items: center; gap: 12px; margin-bottom: 16px;'><i class='fas fa-phone' style='font-size: 20px; color: #3b82f6; width: 24px;'></i> <span style='color: #334155;'>{{$documentObject['contact_phone']}}</span></div>",
+                "attributes": {},
+                "innerStyles": "",
                 "innerClasses": "content-holder"
             },
-            "parentIndex": 9
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "9"
         },
         {
+            "id": "",
             "type": "content",
+            "index": "13",
+            "config": "content",
             "values": {
-                "content": "<p><i class='fas fa-map-marker-alt'></i> {{$documentObject['company_address']}}</p>",
-                "innerStyles": "margin: 10px 0;",
+                "styles": "",
+                "classes": "constructor-element",
+                "content": "<div style='display: flex; align-items: center; gap: 12px;'><i class='fas fa-map-marker-alt' style='font-size: 20px; color: #3b82f6; width: 24px;'></i> <span style='color: #334155;'>{{$documentObject['company_address']}}</span></div>",
+                "attributes": {},
+                "innerStyles": "",
                 "innerClasses": "content-holder"
             },
-            "parentIndex": 9
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": "9"
         }
     ]
 }
