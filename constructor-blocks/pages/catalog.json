@@ -1,0 +1,61 @@
+{
+    "title": "Каталог товаров",
+    "description": "Страница каталога с фильтрацией и карточками товаров",
+    "type": "page",
+    "tags": ["catalog", "ecommerce", "shop", "products", "bootstrap"],
+    "framework": "bootstrap",
+    "tv": ["catalog_title", "products_per_row"],
+    "elements": [
+        {
+            "type": "content",
+            "values": {
+                "content": "<h1 class='text-center mb-5'>{{$documentObject['catalog_title']}}</h1>",
+                "innerStyles": "margin: 40px 0;",
+                "innerClasses": "content-holder"
+            }
+        },
+        {
+            "type": "row",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 20px; padding: 20px;",
+                "dropZoneClasses": "drop-zone"
+            }
+        },
+        {
+            "type": "column",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 20px; width: 280px; flex: 0 0 280px;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<h3>Фильтры</h3><div class='filter-section'><h5>Категории</h5><div class='form-check'><input class='form-check-input' type='checkbox'><label class='form-check-label'>Электроника</label></div><div class='form-check'><input class='form-check-input' type='checkbox'><label class='form-check-label'>Одежда</label></div><div class='form-check'><input class='form-check-input' type='checkbox'><label class='form-check-label'>Книги</label></div></div>",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 2
+        },
+        {
+            "type": "row",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 20px; padding: 20px; flex: 1; flex-wrap: wrap;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "tv",
+            "values": {
+                "tvId": 1,
+                "tvName": "products_per_row",
+                "tvType": "number",
+                "content": "3",
+                "targetStyles": "display: none;",
+                "targetClasses": "hidden"
+            },
+            "parentIndex": 4
+        }
+    ]
+}

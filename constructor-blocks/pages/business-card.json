@@ -1,0 +1,134 @@
+{
+    "title": "Сайт-визитка компании",
+    "description": "Простой и элегантный сайт для небольшого бизнеса",
+    "type": "page",
+    "tags": ["business", "company", "minimal", "bootstrap"],
+    "framework": "bootstrap",
+    "tv": ["company_name", "company_logo", "contact_email", "contact_phone"],
+    "elements": [
+        {
+            "type": "row",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 0; padding: 0;",
+                "dropZoneClasses": "drop-zone"
+            }
+        },
+        {
+            "type": "column",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: column; padding: 0;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 0
+        },
+        {
+            "type": "tv",
+            "values": {
+                "tvId": 1,
+                "tvName": "company_logo",
+                "tvType": "image",
+                "content": "{{$documentObject['company_logo']}}",
+                "alt": "Логотип компании",
+                "targetStyles": "max-width: 200px; margin: 20px auto; display: block;",
+                "targetClasses": "img-fluid"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<h1 class='text-center display-4'>{{$documentObject['company_name']}}</h1>",
+                "innerStyles": "margin: 30px 0;",
+                "innerClasses": "content-holder text-center"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<p class='text-center lead'>{{$documentObject['company_slogan']}}</p>",
+                "innerStyles": "margin-bottom: 40px; color: #6c757d;",
+                "innerClasses": "content-holder text-center"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "row",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 20px; padding: 40px 20px; justify-content: center;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 0
+        },
+        {
+            "type": "column",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 10px; padding: 20px; flex: 1;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 5
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<h3>О нас</h3>",
+                "innerStyles": "color: #333;",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 6
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<p>{{$documentObject['company_description']}}</p>",
+                "innerStyles": "line-height: 1.6;",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 6
+        },
+        {
+            "type": "column",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 10px; padding: 20px; flex: 1;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 5
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<h3>Контакты</h3>",
+                "innerStyles": "color: #333;",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 9
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<p><i class='fas fa-envelope'></i> {{$documentObject['contact_email']}}</p>",
+                "innerStyles": "margin: 10px 0;",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 9
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<p><i class='fas fa-phone'></i> {{$documentObject['contact_phone']}}</p>",
+                "innerStyles": "margin: 10px 0;",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 9
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<p><i class='fas fa-map-marker-alt'></i> {{$documentObject['company_address']}}</p>",
+                "innerStyles": "margin: 10px 0;",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 9
+        }
+    ]
+}

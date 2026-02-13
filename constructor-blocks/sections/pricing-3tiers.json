@@ -1,0 +1,50 @@
+{
+    "title": "Тарифные планы",
+    "description": "Три колонки с ценами и преимуществами",
+    "type": "section",
+    "tags": ["pricing", "plans", "subscription", "bootstrap", "cards"],
+    "framework": "bootstrap",
+    "tv": ["price_basic", "price_pro", "price_enterprise"],
+    "elements": [
+        {
+            "type": "row",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 30px; padding: 60px 20px; justify-content: center;",
+                "dropZoneClasses": "drop-zone"
+            }
+        },
+        {
+            "type": "column",
+            "values": {
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 15px; padding: 30px; flex: 1; max-width: 350px; background: white; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);",
+                "dropZoneClasses": "drop-zone"
+            },
+            "parentIndex": 0
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<h3 class='text-center'>Базовый</h3><div class='text-center display-6 my-4'>{{$documentObject['price_basic']}} ₽<span class='text-muted fs-6'>/мес</span></div>",
+                "innerClasses": "content-holder text-center"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "content",
+            "values": {
+                "content": "<ul class='list-unstyled'><li class='mb-2'><i class='fas fa-check text-success me-2'></i> 10 проектов</li><li class='mb-2'><i class='fas fa-check text-success me-2'></i> 5 ГБ диска</li><li class='mb-2'><i class='fas fa-check text-success me-2'></i> Базовая поддержка</li></ul>",
+                "innerClasses": "content-holder"
+            },
+            "parentIndex": 1
+        },
+        {
+            "type": "button",
+            "values": {
+                "content": "Выбрать",
+                "innerStyles": "width: 100%; margin-top: 20px;",
+                "innerClasses": "btn btn-outline-primary"
+            },
+            "parentIndex": 1
+        }
+    ]
+}
