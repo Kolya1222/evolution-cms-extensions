@@ -25,25 +25,44 @@
         "tv:contact_phone",
         "tv:contact_address"
     ],
-    "framework": "bootstrap",
     "elements": [
         {
+            "id": "",
             "type": "row",
+            "index": "0",
+            "config": "row",
             "values": {
-                "dropZoneStyles": "display: flex; flex-direction: row; gap: 0; padding: 0; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000;",
+                "styles": "position: sticky; top: 0; z-index: 1000;",
+                "classes": "constructor-element",
+                "attributes": [],
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 0; padding: 0; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.05);",
                 "dropZoneClasses": "drop-zone"
-            }
+            },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": null
         },
         {
+            "id": "",
             "type": "column",
+            "index": "1",
+            "config": "column",
             "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
                 "dropZoneStyles": "display: flex; flex-direction: column; gap: 0; padding: 15px 30px; flex: 1; justify-content: center;",
                 "dropZoneClasses": "drop-zone"
             },
+            "visible": "1",
+            "container": "workspace",
             "parentIndex": 0
         },
         {
+            "id": "",
             "type": "tv",
+            "index": "2",
+            "config": "tv",
             "values": {
                 "tvId": 1,
                 "tvName": "company_logo",
@@ -51,738 +70,556 @@
                 "content": "{{$documentObject['company_logo']}}",
                 "alt": "Company Logo",
                 "targetStyles": "max-height: 50px; width: auto;",
-                "targetClasses": "img-fluid"
+                "targetClasses": "img-fluid",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
+            "visible": "1",
+            "container": "workspace",
             "parentIndex": 1
         },
         {
+            "id": "",
             "type": "column",
+            "index": "3",
+            "config": "column",
             "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
                 "dropZoneStyles": "display: flex; flex-direction: row; gap: 30px; padding: 15px 30px; align-items: center; justify-content: flex-end;",
                 "dropZoneClasses": "drop-zone"
             },
+            "visible": "1",
+            "container": "workspace",
             "parentIndex": 0
         },
         {
+            "id": "",
             "type": "link",
+            "index": "4",
+            "config": "link",
             "values": {
                 "content": "Возможности",
                 "href": "#features",
-                "innerStyles": "color: #1e293b; font-weight: 500; text-decoration: none; transition: color 0.3s;",
-                "innerClasses": "nav-link"
+                "innerStyles": "color: #1e293b; font-weight: 500; text-decoration: none;",
+                "innerClasses": "nav-link",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
+            "visible": "1",
+            "container": "workspace",
             "parentIndex": 3
         },
         {
+            "id": "",
             "type": "link",
+            "index": "5",
+            "config": "link",
             "values": {
                 "content": "Тарифы",
                 "href": "#pricing",
-                "innerStyles": "color: #1e293b; font-weight: 500; text-decoration: none; transition: color 0.3s;",
-                "innerClasses": "nav-link"
+                "innerStyles": "color: #1e293b; font-weight: 500; text-decoration: none;",
+                "innerClasses": "nav-link",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
+            "visible": "1",
+            "container": "workspace",
             "parentIndex": 3
         },
         {
-            "type": "link",
-            "values": {
-                "content": "Портфолио",
-                "href": "#portfolio",
-                "innerStyles": "color: #1e293b; font-weight: 500; text-decoration: none; transition: color 0.3s;",
-                "innerClasses": "nav-link"
-            },
-            "parentIndex": 3
-        },
-        {
+            "id": "",
             "type": "button",
+            "index": "6",
+            "config": "button",
             "values": {
                 "content": "Начать бесплатно",
-                "href": "#start",
-                "innerStyles": "background: #2563eb; color: white; border: none; padding: 8px 20px; border-radius: 30px; font-weight: 600; transition: all 0.3s;",
-                "innerClasses": "btn btn-primary btn-sm"
+                "innerStyles": "background: #2563eb; color: white; border: none; padding: 8px 20px; border-radius: 30px; font-weight: 600;",
+                "innerClasses": "btn btn-primary btn-sm",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
+            "visible": "1",
+            "container": "workspace",
             "parentIndex": 3
         },
         {
+            "id": "",
             "type": "row",
+            "index": "7",
+            "config": "row",
             "values": {
-                "dropZoneStyles": "display: flex; flex-direction: row; gap: 0; padding: 80px 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 600px; align-items: center;",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 0; padding: 80px 40px; background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%); min-height: 600px; align-items: center;",
                 "dropZoneClasses": "drop-zone"
-            }
+            },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": null
         },
         {
+            "id": "",
             "type": "column",
+            "index": "8",
+            "config": "column",
             "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
                 "dropZoneStyles": "display: flex; flex-direction: column; gap: 30px; padding: 40px; flex: 1; max-width: 600px;",
                 "dropZoneClasses": "drop-zone"
             },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 7
+        },
+        {
+            "id": "",
+            "type": "content",
+            "index": "9",
+            "config": "content",
+            "values": {
+                "content": "<span class=\"badge bg-light text-primary px-3 py-2 mb-3\" style=\"background: rgba(255,255,255,0.2) !important; color: white !important; border-radius: 30px; font-size: 14px;\">Evolution CMS Constructor 1.0</span>",
+                "innerStyles": "",
+                "innerClasses": "content-holder",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
+            },
+            "visible": "1",
+            "container": "workspace",
             "parentIndex": 8
         },
         {
-            "type": "content",
-            "values": {
-                "content": "<span class='badge bg-light text-primary px-3 py-2 mb-3' style='background: rgba(255,255,255,0.2) !important; color: white !important; border-radius: 30px;'>✨ Evolution CMS Constructor 1.0</span>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 9
-        },
-        {
+            "id": "",
             "type": "tv",
+            "index": "10",
+            "config": "tv",
             "values": {
                 "tvId": 2,
                 "tvName": "hero_title",
                 "tvType": "text",
-                "content": "Создавайте сайты мечты без единой строчки кода",
-                "targetStyles": "font-size: 48px; font-weight: 800; color: white; line-height: 1.2; margin: 0;",
-                "targetClasses": "display-3 fw-bold"
+                "content": "Создавайте сайты мечты без кода",
+                "targetStyles": "font-size: 48px; font-weight: 700; color: white; line-height: 1.2; margin: 0;",
+                "targetClasses": "display-3 fw-bold",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
-            "parentIndex": 9
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<p class='text-white-50' style='font-size: 20px;'>Drag & Drop конструктор, готовые блоки, интеграция с TV параметрами и любимый TinyMCE редактор. Всё, что нужно для профессиональной разработки.</p>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 9
-        },
-        {
-            "type": "row",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: row; gap: 20px; padding: 0;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 9
-        },
-        {
-            "type": "button",
-            "values": {
-                "content": "Попробовать бесплатно",
-                "href": "#try",
-                "innerStyles": "background: white; color: #667eea; border: none; padding: 15px 40px; border-radius: 50px; font-size: 18px; font-weight: 600; box-shadow: 0 10px 30px rgba(0,0,0,0.2);",
-                "innerClasses": "btn btn-light btn-lg"
-            },
-            "parentIndex": 13
-        },
-        {
-            "type": "button",
-            "values": {
-                "content": "Смотреть демо",
-                "href": "#demo",
-                "innerStyles": "background: transparent; color: white; border: 2px solid white; padding: 15px 40px; border-radius: 50px; font-size: 18px; font-weight: 600; transition: all 0.3s;",
-                "innerClasses": "btn btn-outline-light btn-lg"
-            },
-            "parentIndex": 13
-        },
-        {
-            "type": "column",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; padding: 40px; flex: 1; align-items: center; justify-content: center;",
-                "dropZoneClasses": "drop-zone"
-            },
+            "visible": "1",
+            "container": "workspace",
             "parentIndex": 8
         },
         {
+            "id": "",
+            "type": "content",
+            "index": "11",
+            "config": "content",
+            "values": {
+                "content": "<p style=\"color: rgba(255,255,255,0.9); font-size: 18px;\">Drag & Drop конструктор с интеграцией TV параметров и TinyMCE. Готовые блоки из библиотеки.</p>",
+                "innerStyles": "",
+                "innerClasses": "content-holder",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
+            },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 8
+        },
+        {
+            "id": "",
+            "type": "row",
+            "index": "12",
+            "config": "row",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 20px; padding: 0;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 8
+        },
+        {
+            "id": "",
+            "type": "button",
+            "index": "13",
+            "config": "button",
+            "values": {
+                "content": "Попробовать бесплатно",
+                "innerStyles": "background: white; color: #2563eb; border: none; padding: 15px 40px; border-radius: 50px; font-size: 16px; font-weight: 600; box-shadow: 0 10px 30px rgba(0,0,0,0.1);",
+                "innerClasses": "btn btn-light btn-lg",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
+            },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 12
+        },
+        {
+            "id": "",
+            "type": "button",
+            "index": "14",
+            "config": "button",
+            "values": {
+                "content": "Смотреть демо",
+                "innerStyles": "background: transparent; color: white; border: 2px solid white; padding: 15px 40px; border-radius: 50px; font-size: 16px; font-weight: 600;",
+                "innerClasses": "btn btn-outline-light btn-lg",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
+            },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 12
+        },
+        {
+            "id": "",
+            "type": "column",
+            "index": "15",
+            "config": "column",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
+                "dropZoneStyles": "display: flex; flex-direction: column; padding: 40px; flex: 1; align-items: center; justify-content: center;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 7
+        },
+        {
+            "id": "",
             "type": "tv",
+            "index": "16",
+            "config": "tv",
             "values": {
                 "tvId": 3,
                 "tvName": "hero_image",
                 "tvType": "image",
-                "content": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+                "content": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=800",
                 "alt": "Constructor Interface",
-                "targetStyles": "max-width: 100%; border-radius: 20px; box-shadow: 0 30px 60px rgba(0,0,0,0.3); transform: perspective(1000px) rotateY(-5deg); transition: transform 0.5s;",
-                "targetClasses": "img-fluid shadow-lg"
+                "targetStyles": "max-width: 100%; border-radius: 20px; box-shadow: 0 30px 60px rgba(0,0,0,0.2);",
+                "targetClasses": "img-fluid shadow-lg",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
-            "parentIndex": 16
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 15
         },
         {
+            "id": "",
             "type": "row",
-            "id": "features",
+            "index": "17",
+            "config": "row",
             "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
                 "dropZoneStyles": "display: flex; flex-direction: column; gap: 60px; padding: 100px 40px; background: white;",
                 "dropZoneClasses": "drop-zone"
-            }
+            },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": null
         },
         {
+            "id": "",
             "type": "column",
+            "index": "18",
+            "config": "column",
             "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
                 "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 0; max-width: 800px; margin: 0 auto; text-align: center;",
                 "dropZoneClasses": "drop-zone"
             },
-            "parentIndex": 18
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 17
         },
         {
+            "id": "",
             "type": "tv",
+            "index": "19",
+            "config": "tv",
             "values": {
                 "tvId": 4,
                 "tvName": "features_title",
                 "tvType": "text",
-                "content": "Всё необходимое для профессиональной разработки",
-                "targetStyles": "font-size: 36px; font-weight: 700; color: #1e293b;",
-                "targetClasses": "display-4 fw-bold"
+                "content": "Всё необходимое для разработки",
+                "targetStyles": "font-size: 36px; font-weight: 700; color: #0f172a;",
+                "targetClasses": "display-4 fw-bold",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
-            "parentIndex": 19
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 18
         },
         {
+            "id": "",
             "type": "content",
+            "index": "20",
+            "config": "content",
             "values": {
-                "content": "<p class='lead text-muted'>Мощный конструктор, который экономит часы разработки и даёт полный контроль над результатом</p>",
-                "innerClasses": "content-holder"
+                "content": "<p style=\"color: #475569; font-size: 18px;\">Мощный конструктор, который экономит часы работы</p>",
+                "innerStyles": "",
+                "innerClasses": "content-holder",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
-            "parentIndex": 19
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 18
         },
         {
+            "id": "",
             "type": "row",
+            "index": "21",
+            "config": "row",
             "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
                 "dropZoneStyles": "display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 20px 0;",
                 "dropZoneClasses": "drop-zone"
             },
-            "parentIndex": 18
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 17
         },
         {
+            "id": "",
             "type": "column",
+            "index": "22",
+            "config": "column",
             "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 40px 30px; background: #f8fafc; border-radius: 20px; transition: transform 0.3s;",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 40px 30px; background: #f8fafc; border-radius: 20px; transition: transform 0.2s;",
                 "dropZoneClasses": "drop-zone"
             },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 21
+        },
+        {
+            "id": "",
+            "type": "content",
+            "index": "23",
+            "config": "content",
+            "values": {
+                "content": "<div style=\"width: 64px; height: 64px; background: #dbeafe; border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;\"><i class=\"fas fa-edit\" style=\"font-size: 32px; color: #2563eb;\"></i></div><h3 style=\"font-size: 20px; font-weight: 600; margin-bottom: 12px; color: #0f172a;\">Drag & Drop</h3><p style=\"color: #475569; margin: 0; line-height: 1.6;\">Перетаскивайте элементы на страницу. Строки, колонки, контент.</p>",
+                "innerStyles": "",
+                "innerClasses": "content-holder",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
+            },
+            "visible": "1",
+            "container": "workspace",
             "parentIndex": 22
         },
         {
-            "type": "content",
-            "values": {
-                "content": "<div class='feature-icon' style='width: 80px; height: 80px; background: #e0f2fe; border-radius: 20px; display: flex; align-items: center; justify-content: center;'><i class='fas fa-edit' style='font-size: 40px; color: #0284c7;'></i></div>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 23
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<h3>Интуитивный Drag & Drop</h3><p class='text-muted'>Просто перетаскивайте элементы на страницу. Строки, колонки, контент, кнопки — всё работает из коробки.</p>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 23
-        },
-        {
+            "id": "",
             "type": "column",
+            "index": "24",
+            "config": "column",
             "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 40px 30px; background: #f8fafc; border-radius: 20px; transition: transform 0.3s;",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 40px 30px; background: #f8fafc; border-radius: 20px; transition: transform 0.2s;",
                 "dropZoneClasses": "drop-zone"
             },
-            "parentIndex": 22
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 21
         },
         {
+            "id": "",
             "type": "content",
+            "index": "25",
+            "config": "content",
             "values": {
-                "content": "<div class='feature-icon' style='width: 80px; height: 80px; background: #f3e8ff; border-radius: 20px; display: flex; align-items: center; justify-content: center;'><i class='fas fa-tag' style='font-size: 40px; color: #9333ea;'></i></div>",
-                "innerClasses": "content-holder"
+                "content": "<div style=\"width: 64px; height: 64px; background: #f3e8ff; border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;\"><i class=\"fas fa-tag\" style=\"font-size: 32px; color: #9333ea;\"></i></div><h3 style=\"font-size: 20px; font-weight: 600; margin-bottom: 12px; color: #0f172a;\">TV параметры</h3><p style=\"color: #475569; margin: 0; line-height: 1.6;\">Используйте TV поля прямо в конструкторе.</p>",
+                "innerStyles": "",
+                "innerClasses": "content-holder",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 24
+        },
+        {
+            "id": "",
+            "type": "column",
+            "index": "26",
+            "config": "column",
+            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
+                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 40px 30px; background: #f8fafc; border-radius: 20px; transition: transform 0.2s;",
+                "dropZoneClasses": "drop-zone"
+            },
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 21
+        },
+        {
+            "id": "",
+            "type": "content",
+            "index": "27",
+            "config": "content",
+            "values": {
+                "content": "<div style=\"width: 64px; height: 64px; background: #dcfce7; border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;\"><i class=\"fas fa-file-alt\" style=\"font-size: 32px; color: #16a34a;\"></i></div><h3 style=\"font-size: 20px; font-weight: 600; margin-bottom: 12px; color: #0f172a;\">TinyMCE</h3><p style=\"color: #475569; margin: 0; line-height: 1.6;\">Родной редактор Evolution с полным функционалом.</p>",
+                "innerStyles": "",
+                "innerClasses": "content-holder",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
+            },
+            "visible": "1",
+            "container": "workspace",
             "parentIndex": 26
         },
         {
-            "type": "content",
-            "values": {
-                "content": "<h3>TV параметры</h3><p class='text-muted'>Полная интеграция с Evolution CMS. Используйте существующие TV поля прямо в конструкторе.</p>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 26
-        },
-        {
-            "type": "column",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 40px 30px; background: #f8fafc; border-radius: 20px; transition: transform 0.3s;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 22
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<div class='feature-icon' style='width: 80px; height: 80px; background: #dcfce7; border-radius: 20px; display: flex; align-items: center; justify-content: center;'><i class='fas fa-file-alt' style='font-size: 40px; color: #16a34a;'></i></div>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 29
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<h3>TinyMCE редактор</h3><p class='text-muted'>Родной редактор Evolution с полным функционалом. Форматируйте текст, вставляйте изображения, таблицы.</p>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 29
-        },
-        {
+            "id": "",
             "type": "row",
+            "index": "28",
+            "config": "row",
             "values": {
-                "dropZoneStyles": "display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 20px 0; margin-top: 20px;",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
+                "dropZoneStyles": "display: flex; flex-direction: row; gap: 40px; padding: 60px 40px; background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%); border-radius: 30px; margin: 40px 0;",
                 "dropZoneClasses": "drop-zone"
             },
-            "parentIndex": 18
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 17
         },
         {
+            "id": "",
             "type": "column",
+            "index": "29",
+            "config": "column",
             "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 40px 30px; background: #f8fafc; border-radius: 20px;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 32
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<div class='feature-icon' style='width: 80px; height: 80px; background: #fff3cd; border-radius: 20px; display: flex; align-items: center; justify-content: center;'><i class='fas fa-book' style='font-size: 40px; color: #b45309;'></i></div>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 33
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<h3>Библиотека блоков</h3><p class='text-muted'>Готовые страницы и секции из GitHub репозитория. Установите сайт за 1 клик.</p>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 33
-        },
-        {
-            "type": "column",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 40px 30px; background: #f8fafc; border-radius: 20px;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 32
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<div class='feature-icon' style='width: 80px; height: 80px; background: #fee2e2; border-radius: 20px; display: flex; align-items: center; justify-content: center;'><i class='fas fa-sliders-h' style='font-size: 40px; color: #b91c1c;'></i></div>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 36
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<h3>Панель свойств</h3><p class='text-muted'>Тонкая настройка каждого элемента. Цвета, отступы, размеры, анимации — всё под рукой.</p>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 36
-        },
-        {
-            "type": "column",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 40px 30px; background: #f8fafc; border-radius: 20px;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 32
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<div class='feature-icon' style='width: 80px; height: 80px; background: #e0e7ff; border-radius: 20px; display: flex; align-items: center; justify-content: center;'><i class='fas fa-code' style='font-size: 40px; color: #1e40af;'></i></div>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 39
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<h3>Чистый HTML/CSS</h3><p class='text-muted'>Генерирует валидный код без лишних оберток. Идеально для SEO и скорости.</p>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 39
-        },
-        {
-            "type": "row",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: row; gap: 40px; padding: 60px 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 30px; margin: 40px 0;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 18
-        },
-        {
-            "type": "column",
-            "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
                 "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 40px; flex: 1;",
                 "dropZoneClasses": "drop-zone"
             },
-            "parentIndex": 42
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 28
         },
         {
+            "id": "",
             "type": "content",
+            "index": "30",
+            "config": "content",
             "values": {
-                "content": "<h2 style='color: white; font-size: 36px; font-weight: 700;'>Готовы попробовать?</h2>",
-                "innerClasses": "content-holder"
+                "content": "<h2 style=\"color: white; font-size: 32px; font-weight: 700; margin: 0;\">Готовы попробовать?</h2>",
+                "innerStyles": "",
+                "innerClasses": "content-holder",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
-            "parentIndex": 43
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 29
         },
         {
+            "id": "",
             "type": "content",
+            "index": "31",
+            "config": "content",
             "values": {
-                "content": "<p style='color: rgba(255,255,255,0.9); font-size: 18px;'>Установите конструктор прямо сейчас и создайте свой первый сайт за 5 минут</p>",
-                "innerClasses": "content-holder"
+                "content": "<p style=\"color: rgba(255,255,255,0.9); font-size: 18px; margin: 0;\">Установите конструктор и создайте сайт за 5 минут</p>",
+                "innerStyles": "",
+                "innerClasses": "content-holder",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
-            "parentIndex": 43
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 29
         },
         {
+            "id": "",
             "type": "column",
+            "index": "32",
+            "config": "column",
             "values": {
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": [],
                 "dropZoneStyles": "display: flex; flex-direction: row; gap: 20px; padding: 40px; align-items: center; justify-content: flex-end; flex: 1;",
                 "dropZoneClasses": "drop-zone"
             },
-            "parentIndex": 42
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 28
         },
         {
+            "id": "",
             "type": "button",
+            "index": "33",
+            "config": "button",
             "values": {
-                "content": "Установить сейчас",
-                "href": "#install",
-                "innerStyles": "background: white; color: #667eea; border: none; padding: 15px 40px; border-radius: 50px; font-size: 18px; font-weight: 600;",
-                "innerClasses": "btn btn-light btn-lg"
+                "content": "Установить",
+                "innerStyles": "background: white; color: #2563eb; border: none; padding: 12px 30px; border-radius: 50px; font-size: 16px; font-weight: 600;",
+                "innerClasses": "btn btn-light",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
-            "parentIndex": 46
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 32
         },
         {
+            "id": "",
             "type": "button",
+            "index": "34",
+            "config": "button",
             "values": {
                 "content": "Документация",
-                "href": "#docs",
-                "innerStyles": "background: transparent; color: white; border: 2px solid white; padding: 15px 40px; border-radius: 50px; font-size: 18px; font-weight: 600;",
-                "innerClasses": "btn btn-outline-light btn-lg"
+                "innerStyles": "background: transparent; color: white; border: 2px solid white; padding: 12px 30px; border-radius: 50px; font-size: 16px; font-weight: 600;",
+                "innerClasses": "btn btn-outline-light",
+                "styles": "",
+                "classes": "constructor-element",
+                "attributes": {}
             },
-            "parentIndex": 46
-        },
-        {
-            "type": "row",
-            "id": "pricing",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 60px; padding: 100px 40px; background: white;",
-                "dropZoneClasses": "drop-zone"
-            }
-        },
-        {
-            "type": "column",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 0; max-width: 800px; margin: 0 auto; text-align: center;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 49
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<h2 class='display-4 fw-bold'>Выберите свой тариф</h2>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 50
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<p class='lead text-muted'>Прозрачные цены без скрытых платежей</p>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 50
-        },
-        {
-            "type": "row",
-            "values": {
-                "dropZoneStyles": "display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 20px 0;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 49
-        },
-        {
-            "type": "column",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 25px; padding: 50px 30px; background: white; border-radius: 30px; box-shadow: 0 10px 40px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; transition: transform 0.3s;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 53
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<h3 style='color: #2563eb; font-weight: 600;'>Базовый</h3>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 54
-        },
-        {
-            "type": "tv",
-            "values": {
-                "tvId": 5,
-                "tvName": "price_basic",
-                "tvType": "number",
-                "content": "0",
-                "targetStyles": "font-size: 48px; font-weight: 700; color: #1e293b;",
-                "targetClasses": "display-3 fw-bold"
-            },
-            "parentIndex": 54
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<span style='color: #64748b;'>₽/мес</span>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 54
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<hr style='margin: 20px 0;'><ul class='list-unstyled' style='text-align: left;'><li class='mb-3'><i class='fas fa-check text-success me-2'></i> 1 сайт</li><li class='mb-3'><i class='fas fa-check text-success me-2'></i> Базовые блоки</li><li class='mb-3'><i class='fas fa-check text-success me-2'></i> TV параметры</li><li class='mb-3 text-muted'><i class='fas fa-times me-2'></i> Приоритетная поддержка</li></ul>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 54
-        },
-        {
-            "type": "button",
-            "values": {
-                "content": "Начать",
-                "href": "#start-basic",
-                "innerStyles": "width: 100%; background: #f1f5f9; color: #1e293b; border: none; padding: 12px; border-radius: 10px; font-weight: 600;",
-                "innerClasses": "btn"
-            },
-            "parentIndex": 54
-        },
-        {
-            "type": "column",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 25px; padding: 50px 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 30px; box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3); transform: scale(1.05); border: none;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 53
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<span style='background: rgba(255,255,255,0.2); color: white; padding: 5px 15px; border-radius: 30px; font-size: 14px; align-self: flex-start;'>🔥 Популярный</span>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 60
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<h3 style='color: white; font-weight: 600;'>Профессиональный</h3>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 60
-        },
-        {
-            "type": "tv",
-            "values": {
-                "tvId": 6,
-                "tvName": "price_pro",
-                "tvType": "number",
-                "content": "990",
-                "targetStyles": "font-size: 48px; font-weight: 700; color: white;",
-                "targetClasses": "display-3 fw-bold"
-            },
-            "parentIndex": 60
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<span style='color: rgba(255,255,255,0.8);'>₽/мес</span>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 60
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<hr style='margin: 20px 0; border-color: rgba(255,255,255,0.2);'><ul class='list-unstyled' style='text-align: left; color: white;'><li class='mb-3'><i class='fas fa-check text-white me-2'></i> 10 сайтов</li><li class='mb-3'><i class='fas fa-check text-white me-2'></i> Все блоки + премиум</li><li class='mb-3'><i class='fas fa-check text-white me-2'></i> TV параметры</li><li class='mb-3'><i class='fas fa-check text-white me-2'></i> Приоритетная поддержка</li></ul>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 60
-        },
-        {
-            "type": "button",
-            "values": {
-                "content": "Выбрать Pro",
-                "href": "#start-pro",
-                "innerStyles": "width: 100%; background: white; color: #667eea; border: none; padding: 12px; border-radius: 10px; font-weight: 600;",
-                "innerClasses": "btn"
-            },
-            "parentIndex": 60
-        },
-        {
-            "type": "column",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 25px; padding: 50px 30px; background: white; border-radius: 30px; box-shadow: 0 10px 40px rgba(0,0,0,0.05); border: 1px solid #e2e8f0;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 53
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<h3 style='color: #1e293b; font-weight: 600;'>Корпоративный</h3>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 66
-        },
-        {
-            "type": "tv",
-            "values": {
-                "tvId": 7,
-                "tvName": "price_enterprise",
-                "tvType": "number",
-                "content": "2990",
-                "targetStyles": "font-size: 48px; font-weight: 700; color: #1e293b;",
-                "targetClasses": "display-3 fw-bold"
-            },
-            "parentIndex": 66
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<span style='color: #64748b;'>₽/мес</span>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 66
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<hr style='margin: 20px 0;'><ul class='list-unstyled' style='text-align: left;'><li class='mb-3'><i class='fas fa-check text-success me-2'></i> Безлимит сайтов</li><li class='mb-3'><i class='fas fa-check text-success me-2'></i> Все блоки + премиум</li><li class='mb-3'><i class='fas fa-check text-success me-2'></i> TV параметры</li><li class='mb-3'><i class='fas fa-check text-success me-2'></i> Выделенный менеджер</li></ul>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 66
-        },
-        {
-            "type": "button",
-            "values": {
-                "content": "Связаться",
-                "href": "#contact-enterprise",
-                "innerStyles": "width: 100%; background: #f1f5f9; color: #1e293b; border: none; padding: 12px; border-radius: 10px; font-weight: 600;",
-                "innerClasses": "btn"
-            },
-            "parentIndex": 66
-        },
-        {
-            "type": "row",
-            "id": "footer",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: row; gap: 40px; padding: 60px 40px; background: #0f172a; margin-top: 60px;",
-                "dropZoneClasses": "drop-zone"
-            }
-        },
-        {
-            "type": "column",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 20px; padding: 20px; flex: 2;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 71
-        },
-        {
-            "type": "tv",
-            "values": {
-                "tvId": 1,
-                "tvName": "company_logo",
-                "tvType": "image",
-                "content": "{{$documentObject['company_logo']}}",
-                "alt": "Company Logo",
-                "targetStyles": "max-height: 50px; width: auto; filter: brightness(0) invert(1);",
-                "targetClasses": "img-fluid"
-            },
-            "parentIndex": 72
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<p style='color: #94a3b8;'>Современный конструктор страниц для Evolution CMS. Создавайте профессиональные сайты без кода.</p>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 72
-        },
-        {
-            "type": "column",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 15px; padding: 20px; flex: 1;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 71
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<h5 style='color: white; font-weight: 600;'>Продукт</h5>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 75
-        },
-        {
-            "type": "link",
-            "values": {
-                "content": "Возможности",
-                "href": "#features",
-                "innerStyles": "color: #94a3b8; text-decoration: none; transition: color 0.3s;",
-                "innerClasses": "footer-link"
-            },
-            "parentIndex": 75
-        },
-        {
-            "type": "link",
-            "values": {
-                "content": "Тарифы",
-                "href": "#pricing",
-                "innerStyles": "color: #94a3b8; text-decoration: none; transition: color 0.3s;",
-                "innerClasses": "footer-link"
-            },
-            "parentIndex": 75
-        },
-        {
-            "type": "link",
-            "values": {
-                "content": "Документация",
-                "href": "#docs",
-                "innerStyles": "color: #94a3b8; text-decoration: none; transition: color 0.3s;",
-                "innerClasses": "footer-link"
-            },
-            "parentIndex": 75
-        },
-        {
-            "type": "column",
-            "values": {
-                "dropZoneStyles": "display: flex; flex-direction: column; gap: 15px; padding: 20px; flex: 1;",
-                "dropZoneClasses": "drop-zone"
-            },
-            "parentIndex": 71
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<h5 style='color: white; font-weight: 600;'>Контакты</h5>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 80
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<p style='color: #94a3b8; margin-bottom: 5px;'><i class='fas fa-envelope me-2'></i> {{$documentObject['contact_email']}}</p>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 80
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<p style='color: #94a3b8; margin-bottom: 5px;'><i class='fas fa-phone me-2'></i> {{$documentObject['contact_phone']}}</p>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 80
-        },
-        {
-            "type": "content",
-            "values": {
-                "content": "<p style='color: #94a3b8;'><i class='fas fa-map-marker-alt me-2'></i> {{$documentObject['contact_address']}}</p>",
-                "innerClasses": "content-holder"
-            },
-            "parentIndex": 80
+            "visible": "1",
+            "container": "workspace",
+            "parentIndex": 32
         }
     ]
 }
